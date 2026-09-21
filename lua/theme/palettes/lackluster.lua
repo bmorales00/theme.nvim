@@ -1,0 +1,102 @@
+-- This palette reproduces the previously configured lackluster-hack theme:
+-- green keywords, gray italic comments, and transparent normal/menu/popups.
+return {
+    schema_version = 1,
+
+    ui = {
+        primary = "#708090",
+        on_primary = "#000000",
+        secondary = "#deeeed",
+        tertiary = "#7788aa",
+
+        background = "#101010",
+        foreground = "#cccccc",
+        surface = "#080808",
+        surface_variant = "#191919",
+        surface_container = "#1a1a1a",
+        surface_container_high = "#242424",
+        surface_container_highest = "#2a2a2a",
+        on_surface = "#aaaaaa",
+        on_surface_variant = "#7a7a7a",
+        muted = "#555555",
+        outline = "#444444",
+        inverse_surface = "#dddddd",
+        inverse_on_surface = "#000000",
+
+        selection = "#cccccc",
+        on_selection = "#000000",
+        error = "#d70000",
+        warning = "#ffaa88",
+        success = "#789978",
+        info = "#7a7a7a",
+    },
+
+    editor = {
+        comment = "#444444",
+        whitespace = "#202020",
+        nontext = "#555555",
+        line_number = "#444444",
+        line_number_active = "#aaaaaa",
+        parameter = "#8e8e8e",
+
+        keyword = "#789978",
+        keyword_return = "#789978",
+        keyword_exception = "#7788aa",
+        string = "#708090",
+        string_escape = "#789978",
+        function_definition = "#deeeed",
+        function_call = "#7a7a7a",
+        variable = "#cccccc",
+        member = "#aaaaaa",
+        constant = "#aaaaaa",
+        builtin_constant = "#7a7a7a",
+        builtin = "#555555",
+        type = "#aaaaaa",
+        type_definition = "#cccccc",
+        primitive_type = "#aaaaaa",
+        punctuation = "#7a7a7a",
+        tag = "#555555",
+        special = "#708090",
+        diagnostic_text = "#444444",
+    },
+
+    diff = {
+        add = "#789978",
+        change = "#7a7a7a",
+        delete = "#ffaa88",
+        context = "#555555",
+    },
+
+    rainbow = {
+        level_1 = "#555555",
+        level_2 = "#999999",
+        level_3 = "#aaaaaa",
+        level_4 = "#cccccc",
+        level_5 = "#666666",
+        level_6 = "#bbbbbb",
+        level_7 = "#dddddd",
+    },
+
+    terminal = {
+        normal = {
+            black = "#000000",
+            red = "#d70000",
+            green = "#789978",
+            yellow = "#abab77",
+            blue = "#7788aa",
+            magenta = "#708090",
+            cyan = "#deeeed",
+            white = "#cccccc",
+        },
+        bright = {
+            black = "#444444",
+            red = "#ffaa88",
+            green = "#789978",
+            yellow = "#abab77",
+            blue = "#7788aa",
+            magenta = "#8e8e8e",
+            cyan = "#deeeed",
+            white = "#dddddd",
+        },
+    },
+}
